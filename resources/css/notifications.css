@@ -1,0 +1,15 @@
+.vue-notification-wrapper {
+    @apply mt-3 !important;
+}
+
+.vue-notification {
+    @apply rounded-lg !important;
+}
+
+.notification-title {
+    @apply text-lg font-poppins;
+}
+
+.notification-content {
+    @apply mt-1 font-poppins text-[14px];
+}

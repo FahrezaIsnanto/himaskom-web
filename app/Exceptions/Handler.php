@@ -38,4 +38,21 @@ class Handler extends ExceptionHandler
             //
         });
     }
+
+    /**
+     * Prepare exception for rendering.
+     *
+     * @param  \Throwable  $e
+     * @return \Throwable
+     */
+    public function render($request, Throwable $exception)
+    {
+        $response = parent::render($request, $exception);
+        if ($exception instanceof CustomErrors) {
+            return back()->withErrors([
+                "msg" => $exception->getMessage()
+            ]);
+        }
+        return $response;
+    }
 }
