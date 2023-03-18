@@ -70,7 +70,7 @@
                 <a @click.prevent="closeNavbarMobile" href="#division" class="block px-4 py-2 rounded-xl hover:bg-[rgba(128,128,128,.2)] mt-5 cursor-pointer" v-smooth-scroll>
                     <p class="text-[#f9f9f9] font-poppins tracking-wider uppercase text-xl">BIDANG</p>
                 </a>
-                <a class="block w-full py-3 bg-gradient-to-r from-red-600 to-red-400 rounded-lg font-viga font-bold mt-10 tracking-wide hover:text-white text-center select-none cursor-pointer">HUBUNGI KAMI</a>
+                <a  href="https://wa.me/6281326138080?text=Halo+Humas+HIMASKOM" target="_blank" class="block w-full py-3 bg-gradient-to-r from-red-600 to-red-400 rounded-lg font-viga font-bold mt-10 tracking-wide hover:text-white text-center select-none cursor-pointer">HUBUNGI KAMI</a>
             </div>
         </div>
     </div>
