@@ -78,7 +78,7 @@
 
     <!-- Hero -->
     <div id="home" class="h-[512px] rounded-bl-[50px] bg-cover bg-center relative  pt-16">
-        <video class="w-full h-full absolute object-cover z-0 rounded-bl-[50px] shadow-lg" controls poster="/images/widya_pura.png" autoplay muted loop><source src="/videos/bumper.mp4" type="video/mp4"></video>
+        <video class="w-full h-full absolute object-cover z-0 rounded-bl-[50px] shadow-lg" poster="/images/widya_pura.png" autoplay muted loop><source src="/videos/bumper.mp4" type="video/mp4"></video>
         <div class="relative z-1 container flex flex-col justify-center items-center" data-aos="zoom-in" data-duration="300">
             <h1 class="font-viga text-white text-[55px] md:text-[100px] font-bold text-center tracking-widest mt-24 drop-shadow-2xl" >HIMASKOM</h1>
             <p class="font-poppins text-white text-sm md:text-xl font-light text-center mt-2 md:mt-1 tracking-wide drop-shadow-2xl" >Himpunan Mahasiswa Teknik Komputer<br/>Universitas Diponegoro</p>
