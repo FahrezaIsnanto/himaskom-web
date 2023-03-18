@@ -3,7 +3,7 @@
     <Head title="Login" />
     <div class="flex items-center justify-center p-6 min-h-screen bg-gray-100">
       <div class="w-full max-w-md">
-        <img class="mx-auto" src="/images/logo.png" width="150"/>
+        <img class="mx-auto w-[100px] md:w-[150px]" src="/images/logo.png"/>
         <form class="mt-8 bg-white rounded-lg shadow-xl overflow-hidden" @submit.prevent="store">
           <div class="px-10 py-12">
             <h1 class="text-center text-3xl font-bold">Selamat Datang!</h1>

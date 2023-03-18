@@ -199,7 +199,7 @@
     <!-- End Of Pre Footer -->
 
     <!-- Footer -->
-    <div class="bg-[#111] pb-5" data-aos="slide-up" data-duration="300">
+    <div class="bg-[#111] pb-5">
         <div class="container">
             <div class="px-8 py-2">
                 <div class="flex justify-center items-center mb-5">
