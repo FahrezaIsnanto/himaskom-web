@@ -11,7 +11,7 @@
     @inertiaHead
 </head>
 
-<body class="bg-bgall">
+<body class="bg-bgall overflow-x-hidden overflow-y-auto">
     @inertia
 </body>
 
