@@ -12,8 +12,10 @@
     @inertiaHead
 </head>
 
-<body class="bg-bgall overflow-x-hidden overflow-y-auto">
-    @inertia
+<body class="bg-bgall">
+    <div class=" overflow-x-hidden overflow-y-auto">
+        @inertia
+    </div>
 </body>
 
 </html>

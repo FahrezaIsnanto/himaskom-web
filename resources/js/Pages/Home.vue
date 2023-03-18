@@ -78,7 +78,7 @@
 
     <!-- Hero -->
     <div id="home" class="h-[512px] rounded-bl-[50px] bg-cover bg-center relative  pt-16">
-        <video class="w-full h-full absolute object-cover z-0 rounded-bl-[50px] shadow-lg" autoplay muted loop><source src="/videos/bumper.mp4" type="video/mp4"></video>
+        <video class="w-full h-full absolute object-cover z-0 rounded-bl-[50px] shadow-lg" controls poster="/images/widya_pura.png" autoplay muted loop><source src="/videos/bumper.mp4" type="video/mp4"></video>
         <div class="relative z-1 container flex flex-col justify-center items-center" data-aos="zoom-in" data-duration="300">
             <h1 class="font-viga text-white text-[55px] md:text-[100px] font-bold text-center tracking-widest mt-24 drop-shadow-2xl" >HIMASKOM</h1>
             <p class="font-poppins text-white text-sm md:text-xl font-light text-center mt-2 md:mt-1 tracking-wide drop-shadow-2xl" >Himpunan Mahasiswa Teknik Komputer<br/>Universitas Diponegoro</p>
@@ -98,7 +98,7 @@
             <p class="text-[320px] ml-auto tracking-wider font-Tungsten-Bold -mt-48 opacity-[0.03]">HIMASKOM</p>
         </div>
         <div class="container relative border-l-2 border-[#767470]">
-            <p class="font-Tungsten-Bold text-[75px] md:text-[105px] text-red-500 uppercase drop-shadow-lg tracking-wide">BERITA TERBARU</p>
+            <p class="font-Tungsten-Bold text-[65px] md:text-[105px] text-red-500 uppercase drop-shadow-lg tracking-wide whitespace-nowrap">BERITA TERBARU</p>
         </div>
         <div class="overflow-x-auto pb-5 -ml-7 -mt-12 md:-mt-16">
             <div class="container flex">
@@ -194,12 +194,12 @@
 
     <!-- Pre Footer -->
     <div class="bg-[#292929] h-24 flex items-center justify-center overflow-x-hidden" data-aos="slide-left" data-duration="300">
-        <marquee class="text-white font-poppins text-sm text-center tracking-wider md:text-lg w-1/2 mx-auto">TEKKOM COMPILE SUCCESS, TEKKOM NULL ERROR, TEKKOM RUNNING</marquee>
+        <marquee class="text-white font-poppins text-sm text-center tracking-wider md:text-lg w-full md:w-1/2 mx-auto">TEKKOM COMPILE SUCCESS, TEKKOM NULL ERROR, TEKKOM RUNNING</marquee>
     </div>
     <!-- End Of Pre Footer -->
 
     <!-- Footer -->
-    <div class="bg-[#111] w-screen" data-aos="slide-up" data-duration="300">
+    <div class="bg-[#111] pb-5" data-aos="slide-up" data-duration="300">
         <div class="container">
             <div class="px-8 py-2">
                 <div class="flex justify-center items-center mb-5">
@@ -214,7 +214,7 @@
                     <img src="/images/logo.png"  width="60" />
                 </div>
                 <p class="text-white font-poppins text-sm mb-2 text-center mt-5">Alamat Teknik Komputer UNDIP</p>
-                <iframe class="rounded-lg mx-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1130.655200830179!2d110.4398732159461!3d-7.051531659214834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708d3d9c55e8cb%3A0x67f23b9ef2c77c35!2sDepartemen%20Teknik%20Komputer%20FT%20Universitas%20Diponegoro!5e0!3m2!1sid!2sid!4v1678867198399!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="rounded-lg mx-auto w-[250px] h-[150px] md:w-[400px] md:h-[300px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1130.655200830179!2d110.4398732159461!3d-7.051531659214834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708d3d9c55e8cb%3A0x67f23b9ef2c77c35!2sDepartemen%20Teknik%20Komputer%20FT%20Universitas%20Diponegoro!5e0!3m2!1sid!2sid!4v1678867198399!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <p class="text-white text-sm font-poppins mt-5 text-center font-light tracking-wider">Copyright &copy; 2023 All Rights Reserved | HIMASKOM</p>
             </div>
         </div>
